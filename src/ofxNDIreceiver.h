@@ -32,8 +32,6 @@
 #ifndef __ofxNDIreceiver__
 #define __ofxNDIreceiver__
 
-#include "ofMain.h"
-
 #if defined(TARGET_WIN32)
     #include <windows.h>
     #include <intrin.h> // for _movsd
@@ -51,6 +49,9 @@
 #include <iostream>
 #include <vector>
 #include <iostream> // for cout
+#include "ofTexture.h"
+#include "ofPixels.h"
+#include "ofImage.h"
 #include "ofxNDIreceive.h" // Basic receiver functions
 #include "ofxNDIutils.h" // buffer copy utilities
 

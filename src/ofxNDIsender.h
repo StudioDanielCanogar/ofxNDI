@@ -33,8 +33,6 @@
 #ifndef __ofxNDIsender__
 #define __ofxNDIsender__
 
-#include "ofMain.h"
-
 #if defined(TARGET_WIN32)
 #include <windows.h>
 #include <intrin.h> // for _movsd
@@ -48,6 +46,9 @@
 
 #include <stdio.h>
 #include <string>
+#include "ofFbo.h"
+#include "ofShader.h"
+#include "ofPixels.h"
 #include "ofxNDIsend.h" // basic sender functions
 #include "ofxNDIutils.h" // buffer copy utilities
 

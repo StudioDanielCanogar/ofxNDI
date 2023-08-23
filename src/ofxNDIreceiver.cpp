@@ -65,6 +65,7 @@
 
 */
 #include "ofxNDIreceiver.h"
+#include "ofFbo.h"
 
 ofxNDIreceiver::ofxNDIreceiver()
 {
